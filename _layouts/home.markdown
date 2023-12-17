@@ -16,26 +16,16 @@ activeP: true
   </head>
   <body>
     <header style="background:none;border:none;">
-      <a href="{{ '/' | relative_url }}" id="logo_home" style="text-decoration:none;">
-        <img src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butler's Bank, GmbH Logo"/>
+      <a href="{{ '/portfolio' | relative_url }}" id="logo_home" style="text-decoration:none; margin-top: 50px;">
         <div id="name_home">
           <div id="logo_top"><h1>BUTLER'S BANK</h1></div>
           <h2>Ne me quitte pas.</h2>
         </div>
+        <img class="logo_main" src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butler's Bank, GmbH Logo"/>
       </a>
       <div class="clearfix"></div>
-      <nav>
-        <ul>
-          <li><a href="{{ '/portfolio' | relative_url }}" {% if page.activeP %}class="selected"{% endif %}>PORTFOLIO</a></li>
-          <li><a href="{{ '/philosophy' | relative_url }}" {% if page.activeR %}class="selected"{% endif %}>PHILOSOPHY</a></li>
-          <li><a href="{{ '/about' | relative_url }}" {% if page.activeA %}class="selected"{% endif %}>ABOUT</a></li>
-          <li><a href="{{ '/contact' | relative_url }}" {% if page.activeC %}class="selected"{% endif %}>CONTACT</a></li>
-        </ul>
-      </nav>
     </header>
     <div id="wrapper">
-      {{ content }}
-      {% include silver.markdown %}
       <!-- stick footer-->
       <div class="push"></div>
     </div><!--/.wrapper-->
@@ -43,6 +33,8 @@ activeP: true
       <p>&copy; {{ 'now' | date: "%Y" }} Butler's Bank, GmbH</p>
       <a href="{{ '/contact' | relative_url }}"><img src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butlers Banks Logo" class="social-icon"></a>
     </footer>
+    <!-- Google tag (gtag.js) -->
+    <!-- End Google tag -->
     <!-- Google tag (gtag.js) -->
     <!-- End Google tag -->
   </body>

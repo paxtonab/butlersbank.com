@@ -18,12 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Butler Silver
-email: butlersilver@gmail.com
+title: Butler's Bank, GmbH
+email: inquiries@butlersbank.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Robert A. Butler is a contemporary American silversmith who 
-  earned his English Hallmark in 1976. Over the course of his 
-  career his artwork has been displayed in museums around the world.
+  Butler's Bank, GmbH is a Swiss company founded to support the arts
+  via technological investment.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -33,9 +32,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - jekyll-feed
 
 collections:
-  silver_gallery:
+  gallery:
     output: true
-    permalink: /silver/:name
+    permalink: /portfolio/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.

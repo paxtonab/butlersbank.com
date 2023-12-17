@@ -8,11 +8,11 @@ activeP: true
 
   <section>
     <ul id="gallery">
-    {% for silver in site.silver_gallery %}
+    {% for item in site.gallery %}
       <li>
-        <a href="{{ silver.permalink | relative_url }}">
-          <img src="{{ silver.img_small | relative_url }}" alt="{{ silver.title }}">
-          <p>{{ silver.title }}</p>
+        <a href="{{ item.permalink | relative_url }}">
+          <img src="{{ item.img_small | relative_url }}" alt="{{ item.title }}">
+          <p>{{ item.title }}</p>
         </a>
       </li>
     {% endfor %}
