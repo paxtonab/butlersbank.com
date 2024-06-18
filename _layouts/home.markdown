@@ -1,6 +1,6 @@
 ---
-title: "Butler's Bank, GmbH"
-meta_description: "Butler's Bank, GmBH is a Swiss company focused on supporting the arts through technology."
+title: "Butler's Bank"
+meta_description: "Butler's Bank"
 activeP: true
 ---
 <!DOCTYPE html>
@@ -17,20 +17,21 @@ activeP: true
   <body>
     <header style="background:none;border:none;">
       <a href="{{ '/portfolio' | relative_url }}" id="logo_home" style="text-decoration:none; margin-top: 50px;">
+        <img class="logo_main" src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butler's Bank"/>
         <div id="name_home">
           <div id="logo_top"><h1>BUTLER'S BANK</h1></div>
           <h2>Ne me quitte pas.</h2>
         </div>
-        <img class="logo_main" src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butler's Bank, GmbH Logo"/>
       </a>
       <div class="clearfix"></div>
     </header>
     <div id="wrapper">
+      {{ content }}
       <!-- stick footer-->
       <div class="push"></div>
     </div><!--/.wrapper-->
     <footer>
-      <p>&copy; {{ 'now' | date: "%Y" }} Butler's Bank, GmbH</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} Butler's Bank</p>
       <a href="{{ '/contact' | relative_url }}"><img src="{{ '/assets/images/butlersbank-logo.png' | relative_url }}" alt="Butlers Banks Logo" class="social-icon"></a>
     </footer>
     <!-- Google tag (gtag.js) -->

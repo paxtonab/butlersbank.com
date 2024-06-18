@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Butler's Bank, GmbH
+title: Butler's Bank
 email: inquiries@butlersbank.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Butler's Bank, GmbH is a Swiss company founded to support the arts
-  via technological investment.
+  Butler's Bank, GmbH.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -30,11 +29,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: minima
 # plugins:
 #   - jekyll-feed
-
-collections:
-  gallery:
-    output: true
-    permalink: /portfolio/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.

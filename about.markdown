@@ -1,8 +1,8 @@
 ---
 layout: base
-title: "Butler's Bank, GmbH About"
+title: "About"
 permalink: /about/
-meta_description: "Butler's Bank, GmbH, founding and history."
+meta_description: "About"
 activeA: true
 ---
 
